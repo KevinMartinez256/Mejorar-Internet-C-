@@ -1,0 +1,99 @@
+Sun Feb 09 23:57:06 2025: build-wrapper, version 6.63 (win-x86-64)
+Sun Feb 09 23:57:06 2025: isWow64: 0
+Sun Feb 09 23:57:06 2025: windows version: 10.0, service pack: 0.0, build number: 19045, product type: 1
+Sun Feb 09 23:57:06 2025: current directory: C:\Users\Kevo\Downloads\c++
+Sun Feb 09 23:57:06 2025: cwd: <C:\Users\Kevo\Downloads\c++>
+Sun Feb 09 23:57:06 2025: out-dir absolute path: <C:\Users\Kevo\Downloads\c++\build_output>
+Sun Feb 09 23:57:06 2025: command line received: <"C:/msys64/ucrt64/bin/g++.exe" -Wall -Wextra -Werror src/Integradora.cpp -o Integradora>
+Sun Feb 09 23:57:06 2025: initializing json file
+Sun Feb 09 23:57:06 2025: starting debug cycle
+Sun Feb 09 23:57:06 2025: process created with pid: 7364
+Sun Feb 09 23:57:06 2025: image path name: <C:\msys64\ucrt64\bin\g++.exe>
+Sun Feb 09 23:57:06 2025: command line: <"C:/msys64/ucrt64/bin/g++.exe" -Wall -Wextra -Werror src/Integradora.cpp -o Integradora>
+Sun Feb 09 23:57:06 2025: working directory: <C:\Users\Kevo\Downloads\c++\>
+Sun Feb 09 23:57:06 2025: isWow64: 0
+Sun Feb 09 23:57:06 2025: VirtualQueryEx 000000000001078E
+Sun Feb 09 23:57:06 2025: 	Offset 1934
+Sun Feb 09 23:57:06 2025: 	VirtualQueryEx Base	BaseAddr: 0000000000010000	AllocationBase: 0000000000010000	AllocationProtect: 0x4	Protect: 0x4	State: 0x1000	RegionSize: 131072	Type: 0x20000
+Sun Feb 09 23:57:06 2025: Read environment of size 2298
+Sun Feb 09 23:57:06 2025: candidate file: <src/Integradora.cpp>
+Sun Feb 09 23:57:06 2025: env0: <=::=::\>
+Sun Feb 09 23:57:06 2025: env1: <=C:=C:\Users\Kevo\Downloads\c++>
+Sun Feb 09 23:57:06 2025: env2: <=ExitCode=00000000>
+Sun Feb 09 23:57:06 2025: env3: <ACSetupSvcPort=23210>
+Sun Feb 09 23:57:06 2025: env4: <ACSvcPort=17532>
+Sun Feb 09 23:57:06 2025: env5: <ALLUSERSPROFILE=C:\ProgramData>
+Sun Feb 09 23:57:06 2025: env6: <AMDRMPATH=C:\Program Files\AMD\RyzenMaster\>
+Sun Feb 09 23:57:06 2025: env7: <APPDATA=C:\Users\Kevo\AppData\Roaming>
+Sun Feb 09 23:57:06 2025: env8: <CommonProgramFiles=C:\Program Files\Common Files>
+Sun Feb 09 23:57:06 2025: env9: <CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files>
+Sun Feb 09 23:57:06 2025: env10: <CommonProgramW6432=C:\Program Files\Common Files>
+Sun Feb 09 23:57:06 2025: env11: <COMPUTERNAME=DESKTOP-JKIDMUL>
+Sun Feb 09 23:57:06 2025: env12: <ComSpec=C:\WINDOWS\system32\cmd.exe>
+Sun Feb 09 23:57:06 2025: env13: <CYGWIN=wincmdln>
+Sun Feb 09 23:57:06 2025: env14: <DriverData=C:\Windows\System32\Drivers\DriverData>
+Sun Feb 09 23:57:06 2025: env15: <ERROR_CODE=0>
+Sun Feb 09 23:57:06 2025: env16: <HOMEDRIVE=C:>
+Sun Feb 09 23:57:06 2025: env17: <HOMEPATH=\Users\Kevo>
+Sun Feb 09 23:57:06 2025: env18: <LOCALAPPDATA=C:\Users\Kevo\AppData\Local>
+Sun Feb 09 23:57:06 2025: env19: <LOGONSERVER=\\DESKTOP-JKIDMUL>
+Sun Feb 09 23:57:06 2025: env20: <NUMBER_OF_PROCESSORS=12>
+Sun Feb 09 23:57:06 2025: env21: <OneDrive=C:\Users\Kevo\OneDrive>
+Sun Feb 09 23:57:06 2025: env22: <OS=Windows_NT>
+Sun Feb 09 23:57:06 2025: env23: <Path=C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Kevo\Desktop\sonar-scanner-6.2.1.4610-windows-x64\bin;C:\Users\Kevo\AppData\Local\Microsoft\WindowsApps;C:\Users\Kevo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Kevo\AppData\Local\JetBrains\Toolbox\scripts;C:\msys64\ucrt64\bin;>
+Sun Feb 09 23:57:06 2025: env24: <PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC>
+Sun Feb 09 23:57:06 2025: env25: <PROCESSOR_ARCHITECTURE=AMD64>
+Sun Feb 09 23:57:06 2025: env26: <PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD>
+Sun Feb 09 23:57:06 2025: env27: <PROCESSOR_LEVEL=25>
+Sun Feb 09 23:57:06 2025: env28: <PROCESSOR_REVISION=6102>
+Sun Feb 09 23:57:06 2025: env29: <ProgramData=C:\ProgramData>
+Sun Feb 09 23:57:06 2025: env30: <ProgramFiles=C:\Program Files>
+Sun Feb 09 23:57:06 2025: env31: <ProgramFiles(x86)=C:\Program Files (x86)>
+Sun Feb 09 23:57:06 2025: env32: <ProgramW6432=C:\Program Files>
+Sun Feb 09 23:57:06 2025: env33: <PROMPT=$P$G>
+Sun Feb 09 23:57:06 2025: env34: <PSModulePath=C:\Program Files (x86)\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\AutoIt3\AutoItX>
+Sun Feb 09 23:57:06 2025: env35: <PUBLIC=C:\Users\Public>
+Sun Feb 09 23:57:06 2025: env36: <QT_SCALE_FACTOR_ROUNDING_POLICY=RoundPreferFloor>
+Sun Feb 09 23:57:06 2025: env37: <RlsSvcPort=22112>
+Sun Feb 09 23:57:06 2025: env38: <SESSIONNAME=Console>
+Sun Feb 09 23:57:06 2025: env39: <SystemDrive=C:>
+Sun Feb 09 23:57:06 2025: env40: <SystemRoot=C:\WINDOWS>
+Sun Feb 09 23:57:06 2025: env41: <TEMP=C:\Users\Kevo\AppData\Local\Temp>
+Sun Feb 09 23:57:06 2025: env42: <TMP=C:\Users\Kevo\AppData\Local\Temp>
+Sun Feb 09 23:57:06 2025: env43: <USERDOMAIN=DESKTOP-JKIDMUL>
+Sun Feb 09 23:57:06 2025: env44: <USERDOMAIN_ROAMINGPROFILE=DESKTOP-JKIDMUL>
+Sun Feb 09 23:57:06 2025: env45: <USERNAME=Kevo>
+Sun Feb 09 23:57:06 2025: env46: <USERPROFILE=C:\Users\Kevo>
+Sun Feb 09 23:57:06 2025: env47: <VBOX_HWVIRTEX_IGNORE_SVM_IN_USE=1>
+Sun Feb 09 23:57:06 2025: env48: <windir=C:\WINDOWS>
+Sun Feb 09 23:57:06 2025: env49: <_NO_DEBUG_HEAP=1>
+Sun Feb 09 23:57:06 2025: process created with pid: 1916
+Sun Feb 09 23:57:06 2025: image path name: <C:\msys64\ucrt64\bin\..\lib\gcc\x86_64-w64-mingw32\14.2.0\cc1plus.exe>
+Sun Feb 09 23:57:06 2025: command line: <C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT src/Integradora.cpp -quiet -dumpbase Integradora.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -Wall -Wextra -Werror -o C:\Users\Kevo\AppData\Local\Temp\ccw8EWux.s>
+Sun Feb 09 23:57:06 2025: working directory: <C:\Users\Kevo\Downloads\c++\>
+Sun Feb 09 23:57:06 2025: isWow64: 0
+Sun Feb 09 23:57:06 2025: skipping process C:\msys64\ucrt64\bin\..\lib\gcc\x86_64-w64-mingw32\14.2.0\cc1plus.exe with pid: 1916
+Sun Feb 09 23:57:06 2025: process with pid 1916 exit with code: 0 (0x0)
+Sun Feb 09 23:57:06 2025: process created with pid: 13944
+Sun Feb 09 23:57:06 2025: image path name: <C:\msys64\ucrt64\bin\..\lib\gcc\x86_64-w64-mingw32\14.2.0\..\..\..\..\x86_64-w64-mingw32\bin\as.exe>
+Sun Feb 09 23:57:06 2025: command line: <C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -o C:\Users\Kevo\AppData\Local\Temp\ccOg8MFn.o C:\Users\Kevo\AppData\Local\Temp\ccw8EWux.s>
+Sun Feb 09 23:57:06 2025: working directory: <C:\Users\Kevo\Downloads\c++\>
+Sun Feb 09 23:57:06 2025: isWow64: 0
+Sun Feb 09 23:57:06 2025: skipping process C:\msys64\ucrt64\bin\..\lib\gcc\x86_64-w64-mingw32\14.2.0\..\..\..\..\x86_64-w64-mingw32\bin\as.exe with pid: 13944
+Sun Feb 09 23:57:06 2025: process with pid 13944 exit with code: 0 (0x0)
+Sun Feb 09 23:57:06 2025: process created with pid: 24564
+Sun Feb 09 23:57:06 2025: image path name: <C:\msys64\ucrt64\bin\..\lib\gcc\x86_64-w64-mingw32\14.2.0\collect2.exe>
+Sun Feb 09 23:57:06 2025: command line: <C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Kevo\AppData\Local\Temp\cc83hJbk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o Integradora.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. C:\Users\Kevo\AppData\Local\Temp\ccOg8MFn.o -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o>
+Sun Feb 09 23:57:06 2025: working directory: <C:\Users\Kevo\Downloads\c++\>
+Sun Feb 09 23:57:06 2025: isWow64: 0
+Sun Feb 09 23:57:06 2025: skipping process C:\msys64\ucrt64\bin\..\lib\gcc\x86_64-w64-mingw32\14.2.0\collect2.exe with pid: 24564
+Sun Feb 09 23:57:06 2025: process created with pid: 28660
+Sun Feb 09 23:57:06 2025: image path name: <C:\msys64\ucrt64\bin\..\lib\gcc\x86_64-w64-mingw32\14.2.0\..\..\..\..\x86_64-w64-mingw32\bin\ld.exe>
+Sun Feb 09 23:57:06 2025: command line: <C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Kevo\AppData\Local\Temp\cc83hJbk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o Integradora.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. C:\Users\Kevo\AppData\Local\Temp\ccOg8MFn.o -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o>
+Sun Feb 09 23:57:06 2025: working directory: <C:\Users\Kevo\Downloads\c++\>
+Sun Feb 09 23:57:06 2025: isWow64: 0
+Sun Feb 09 23:57:06 2025: skipping process C:\msys64\ucrt64\bin\..\lib\gcc\x86_64-w64-mingw32\14.2.0\..\..\..\..\x86_64-w64-mingw32\bin\ld.exe with pid: 28660
+Sun Feb 09 23:57:06 2025: process with pid 28660 exit with code: 0 (0x0)
+Sun Feb 09 23:57:06 2025: process with pid 24564 exit with code: 0 (0x0)
+Sun Feb 09 23:57:06 2025: process with pid 7364 exit with code: 0 (0x0)
+Sun Feb 09 23:57:06 2025: finalizing json file

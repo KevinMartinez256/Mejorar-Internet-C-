@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Ejecutar programa",
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/Integradora.exe",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "stopAtEntry": false,
+        "environment": [],
+        "externalConsole": true
+      }
+    ]
+  }

@@ -1,0 +1,73 @@
+# (C) SonarSource SA, 2014-2023, info@sonarsource.com
+# All SONARSOURCE programs and content are copyright protected.
+# SONARSOURCE and SONARQUBE are trademarks of SonarSource SA. All rights are expressly reserved.
+#
+# This file is designed exclusively for use with the SONARSOURCE C / C++ / Objective-C Plugin.
+# It may not be used in connection with any other software.
+# Any other use is prohibited by law and may be grounds for immediate termination of your License.
+{
+"version":"6.63",
+"captures":[
+{
+"compiler":"clang",
+"executable":"C:\\msys64\\ucrt64\\bin\\g++.exe",
+"cmd": [
+"C:\/msys64\/ucrt64\/bin\/g++.exe",
+"-Wall",
+"-Wextra",
+"-Werror",
+"src\/Integradora.cpp",
+"-o",
+"Integradora"],
+"cwd":"C:\\Users\\Kevo\\Downloads\\c++\\",
+"env": [
+"=::=::\\",
+"=C:=C:\\Users\\Kevo\\Downloads\\c++",
+"=ExitCode=00000000",
+"ACSetupSvcPort=23210",
+"ACSvcPort=17532",
+"ALLUSERSPROFILE=C:\\ProgramData",
+"AMDRMPATH=C:\\Program Files\\AMD\\RyzenMaster\\",
+"APPDATA=C:\\Users\\Kevo\\AppData\\Roaming",
+"CommonProgramFiles=C:\\Program Files\\Common Files",
+"CommonProgramFiles(x86)=C:\\Program Files (x86)\\Common Files",
+"CommonProgramW6432=C:\\Program Files\\Common Files",
+"COMPUTERNAME=DESKTOP-JKIDMUL",
+"ComSpec=C:\\WINDOWS\\system32\\cmd.exe",
+"CYGWIN=wincmdln",
+"DriverData=C:\\Windows\\System32\\Drivers\\DriverData",
+"ERROR_CODE=0",
+"HOMEDRIVE=C:",
+"HOMEPATH=\\Users\\Kevo",
+"LOCALAPPDATA=C:\\Users\\Kevo\\AppData\\Local",
+"LOGONSERVER=\\\\DESKTOP-JKIDMUL",
+"NUMBER_OF_PROCESSORS=12",
+"OneDrive=C:\\Users\\Kevo\\OneDrive",
+"OS=Windows_NT",
+"Path=C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\CMake\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Users\\Kevo\\Desktop\\sonar-scanner-6.2.1.4610-windows-x64\\bin;C:\\Users\\Kevo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Kevo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Kevo\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\msys64\\ucrt64\\bin;",
+"PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+"PROCESSOR_ARCHITECTURE=AMD64",
+"PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+"PROCESSOR_LEVEL=25",
+"PROCESSOR_REVISION=6102",
+"ProgramData=C:\\ProgramData",
+"ProgramFiles=C:\\Program Files",
+"ProgramFiles(x86)=C:\\Program Files (x86)",
+"ProgramW6432=C:\\Program Files",
+"PROMPT=$P$G",
+"PSModulePath=C:\\Program Files (x86)\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\AutoIt3\\AutoItX",
+"PUBLIC=C:\\Users\\Public",
+"QT_SCALE_FACTOR_ROUNDING_POLICY=RoundPreferFloor",
+"RlsSvcPort=22112",
+"SESSIONNAME=Console",
+"SystemDrive=C:",
+"SystemRoot=C:\\WINDOWS",
+"TEMP=C:\\Users\\Kevo\\AppData\\Local\\Temp",
+"TMP=C:\\Users\\Kevo\\AppData\\Local\\Temp",
+"USERDOMAIN=DESKTOP-JKIDMUL",
+"USERDOMAIN_ROAMINGPROFILE=DESKTOP-JKIDMUL",
+"USERNAME=Kevo",
+"USERPROFILE=C:\\Users\\Kevo",
+"VBOX_HWVIRTEX_IGNORE_SVM_IN_USE=1",
+"windir=C:\\WINDOWS",
+"_NO_DEBUG_HEAP=1"]}]}
