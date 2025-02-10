@@ -14,11 +14,11 @@ jobs:
 
     steps:
       - name: Checkout código fuente
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Configurar CMake y compilar
         run: |
-          rm -rf build  # Elimina el directorio si ya existe
+          rm -rf build # Asegura que la carpeta no exista antes de crearla
           mkdir build
           cd build
           cmake ..
@@ -29,20 +29,19 @@ jobs:
           cd build
           ctest --output-on-failure
 
-      - name: Configurar SonarQube
+      - name: Analizar código con SonarQube
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: "http://localhost:9000"  # Cambia esto si usas otro servidor
         run: |
           sonar-scanner \
             -Dsonar.projectKey=InternetService \
-            -Dsonar.sources=. \
-            -Dsonar.host.url=$SONAR_HOST_URL \
+            -Dsonar.organization=tu-organizacion \
+            -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=$SONAR_TOKEN
 
-      - name: Publicar resultado de pruebas
-        uses: actions/upload-artifact@v3
+      - name: Guardar artefactos de la compilación
+        uses: actions/upload-artifact@v4
         with:
-          name: TestResults
-          path: build/Testing/Temporary/LastTest.log
+          name: build-artifacts
+          path: build/
 
