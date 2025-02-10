@@ -16,6 +16,15 @@ jobs:
       - name: Checkout código fuente
         uses: actions/checkout@v4
 
+      - name: Instalar dependencias (CMake, Google Test)
+        run: |
+          sudo apt update
+          sudo apt install -y cmake g++ libgtest-dev
+          cd /usr/src/gtest
+          sudo cmake CMakeLists.txt
+          sudo make
+          sudo cp *.a /usr/lib
+
       - name: Configurar CMake y compilar
         run: |
           rm -rf build # Asegura que la carpeta no exista antes de crearla
@@ -24,7 +33,7 @@ jobs:
           cmake ..
           make
 
-      - name: Ejecutar pruebas unitarias
+      - name: Ejecutar pruebas unitarias con Google Test
         run: |
           cd build
           ctest --output-on-failure
