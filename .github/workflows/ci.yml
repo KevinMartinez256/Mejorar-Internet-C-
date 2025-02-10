@@ -1,0 +1,39 @@
+name: CI-CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout código fuente
+        uses: actions/checkout@v3
+
+      - name: Configurar CMake y compilar
+        run: |
+          mkdir build
+          cd build
+          cmake ..
+          make
+
+      - name: Ejecutar pruebas unitarias
+        run: |
+          cd build
+          ctest --output-on-failure
+
+      - name: Ejecutar análisis de SonarQube
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: |
+          sonar-scanner \
+            -Dsonar.projectKey=InternetService \
+            -Dsonar.organization=tu-organizacion \
+            -Dsonar.host.url=http://localhost:9000 \
+            -Dsonar.login=$SONAR_TOKEN
